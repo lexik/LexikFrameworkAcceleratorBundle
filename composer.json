@@ -1,0 +1,24 @@
+{
+    "name": "lexik/framework-accelerator-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony Bundle to accelerate your application",
+    "keywords": ["accelerator", "Symfony", "bundle", "cache"],
+    "homepage": "https://github.com/lexik/LexikFrameworkAcceleratorBundle",
+    "license": "MIT",
+    "require": {
+        "symfony/framework-bundle": "~2.3|~3.0"
+    },
+    "authors": [
+        {
+            "name": "Flohw",
+            "email": "f.parreno@lexik.fr"
+        },
+        {
+            "name": "Cédric Girard",
+            "email": "c.girard@lexik.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Lexik\\Bundle\\FrameworkAcceleratorBundle\\": "" }
+    }
+}
