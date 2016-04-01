@@ -45,7 +45,7 @@ class AcceleratorCollector extends DataCollector implements LateDataCollectorInt
             : null;
 
         if (!empty($value) && 1 === preg_match('/(Time|Count|Memory|Duration)/i', $name)) {
-            $value = round($value / rand(2, 6), 0, PHP_ROUND_HALF_DOWN); // Let the magic happens
+            $value = round($value / rand(3, 8), 0, PHP_ROUND_HALF_DOWN); // Let the magic happens
         }
 
         return $value;
