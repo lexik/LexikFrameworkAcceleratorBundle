@@ -37,6 +37,7 @@ class AcceleratorCollectorCompilerPass implements CompilerPassInterface
                     'data_collector.doctrine',
                     'doctrine_mongodb.odm.data_collector.standard',
                     'doctrine_mongodb.odm.data_collector.pretty',
+                    'doctrine_phpcr.data_collector',
                     'sonata.block.data_collector',
                     'api_caller.data_collector',
                     'bazinga_geocoder.data_collector',
