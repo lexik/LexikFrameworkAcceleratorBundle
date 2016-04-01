@@ -1,5 +1,5 @@
 {
-    "name": "lexik/framework-accelerator-bundle",
+    "name": "lexik/accelerator-bundle",
     "type": "symfony-bundle",
     "description": "A Symfony Bundle to accelerate your application",
     "keywords": ["accelerator", "Symfony", "bundle", "cache"],
