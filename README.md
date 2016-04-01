@@ -6,7 +6,7 @@ As Lexik cares about application performance a lot, our team has invested many y
 
 Thus we have developed this formidable bundle, the LexikAcceleratorBundle. 
 And at Lexik as we are cool we share this bundle. 
-This little bundle helps to make pages rendering 2 to 6 times faster.
+This little bundle helps to make pages rendering 3 to 8 times faster.
 
 Before:
 
