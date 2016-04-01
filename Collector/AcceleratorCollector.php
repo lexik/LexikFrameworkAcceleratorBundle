@@ -40,8 +40,9 @@ class AcceleratorCollector extends DataCollector implements LateDataCollectorInt
      */
     public function __call($name, array $arguments)
     {
-        $value = isset($this->data['collector_data'][strtolower($name)])
-            ? $this->data['collector_data'][strtolower($name)]
+        $key = strtolower($name);
+        $value = isset($this->data['collector_data'][$key])
+            ? $this->data['collector_data'][$key]
             : null;
 
         if (!empty($value) && 1 === preg_match('/(Time|Count|Memory|Duration)/i', $name)) {
