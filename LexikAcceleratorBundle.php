@@ -1,17 +1,17 @@
 <?php
 
-namespace Lexik\Bundle\FrameworkAcceleratorBundle;
+namespace Lexik\Bundle\AcceleratorBundle;
 
-use Lexik\Bundle\FrameworkAcceleratorBundle\DependencyInjection\Compiler\AcceleratorCollectorCompilerPass;
+use Lexik\Bundle\AcceleratorBundle\DependencyInjection\Compiler\AcceleratorCollectorCompilerPass;
 use Symfony\Component\DependencyInjection\Compiler\PassConfig;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
- * Class LexikFrameworkAcceleratorBundle
- * @package Lexik\Bundle\FrameworkAcceleratorBundle
+ * Class LexikAcceleratorBundle
+ * @package Lexik\Bundle\AcceleratorBundle
  */
-class LexikFrameworkAcceleratorBundle extends Bundle
+class LexikAcceleratorBundle extends Bundle
 {
     /**
      * {@inheritdoc}

@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "A Symfony Bundle to accelerate your application",
     "keywords": ["accelerator", "Symfony", "bundle", "cache"],
-    "homepage": "https://github.com/lexik/LexikFrameworkAcceleratorBundle",
+    "homepage": "https://github.com/lexik/LexikAcceleratorBundle",
     "license": "MIT",
     "require": {
         "symfony/framework-bundle": "~2.3|~3.0"
@@ -19,6 +19,6 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Lexik\\Bundle\\FrameworkAcceleratorBundle\\": "" }
+        "psr-4": { "Lexik\\Bundle\\AcceleratorBundle\\": "" }
     }
 }

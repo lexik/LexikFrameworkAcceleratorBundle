@@ -1,8 +1,8 @@
 <?php
 
-namespace Lexik\Bundle\FrameworkAcceleratorBundle\DependencyInjection\Compiler;
+namespace Lexik\Bundle\AcceleratorBundle\DependencyInjection\Compiler;
 
-use Lexik\Bundle\FrameworkAcceleratorBundle\Collector\AcceleratorCollector;
+use Lexik\Bundle\AcceleratorBundle\Collector\AcceleratorCollector;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
@@ -10,7 +10,7 @@ use Symfony\Component\DependencyInjection\Reference;
 
 /**
  * Class AcceleratorCollectorCompilerPass
- * @package Lexik\Bundle\FrameworkAcceleratorBundle\DependencyInjection\CompilerPass
+ * @package Lexik\Bundle\AcceleratorBundle\DependencyInjection\CompilerPass
  */
 class AcceleratorCollectorCompilerPass implements CompilerPassInterface
 {
