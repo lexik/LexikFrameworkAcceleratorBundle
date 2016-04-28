@@ -1,6 +1,6 @@
 <?php
 
-namespace Lexik\Bundle\FrameworkAcceleratorBundle\DependencyInjection;
+namespace Lexik\Bundle\AcceleratorBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

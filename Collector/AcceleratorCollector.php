@@ -1,6 +1,6 @@
 <?php
 
-namespace Lexik\Bundle\FrameworkAcceleratorBundle\Collector;
+namespace Lexik\Bundle\AcceleratorBundle\Collector;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -10,7 +10,7 @@ use Symfony\Component\HttpKernel\DataCollector\LateDataCollectorInterface;
 
 /**
  * Class AcceleratorCollector
- * @package Lexik\Bundle\FrameworkAcceleratorBundle\Collector
+ * @package Lexik\Bundle\AcceleratorBundle\Collector
  */
 class AcceleratorCollector extends DataCollector implements LateDataCollectorInterface
 {
