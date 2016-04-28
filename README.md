@@ -1,6 +1,8 @@
 LexikAcceleratorBundle
 ======================
 
+April fools :smiley_cat: 
+
 In web development everyone has been faced with customers who want faster pages.
 As Lexik cares about application performance a lot, our team has invested many years of R&D in order to develop a brand new optimization technique.
 
